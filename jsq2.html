@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First Web Page</h2>
+<p>My first paragraph.</p>
+
+<p id="demo1"></p>
+
+<script>
+	function  largerNum()
+	{
+		var num1, num2, num3,num4,num5;
+		
+
+		if(num1>num2 && num1>num3 && num1>num4 && num1>num5)
+		{
+			window.alert(num1);
+		}
+		else if(num2>num1 && num2>num3 && num2>num4 && num2>num5)
+		{
+			window.alert(num2);
+		}
+		else if(num3>num1 && num3>num2 && num3>num4 && num3>num5)
+		{
+			window.alert(num3);
+		}
+		else if(num4>num1 && num4>num2 && num4>num3 && num4>num5)
+		{
+			window.alert(num4);
+		}
+		else (num5>num1 && num5>num2 && num5>num3 && num5>num4)
+		{
+			window.alert(num5);
+		}
+		document.getElementById(demo1).innerHTML=largerNum();
+		
+		}
+		
+</script>
+
+
+</body>
+</html> 

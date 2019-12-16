@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo1"></p>
+
+<script>
+	function  assignGrade(x)
+	{
+		var x;
+		
+		if(x>75)
+		{
+			return A;
+		}
+		else if(75>x>60)
+		{
+			return B;
+		}
+		else if(60>x>45)
+		{
+			return C;
+		}
+		else if(45>x)
+		{
+			return F;
+		}
+		
+		document.getElementById(demo1).innerHTML=assignGrade(30);
+		
+		}
+		
+</script>
+
+
+</body>
+</html> 
